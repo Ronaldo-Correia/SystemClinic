@@ -28,9 +28,7 @@ spring:
       #path: /h2-console
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/clinicabd
-    username: postgres
-    password: postgre
+    url: ${DATABASE_URL}
     driver-class-name: org.postgresql.Driver
 
   jpa:
