@@ -44,8 +44,6 @@ spring:
           lob:
             non_contextual_creation: true
 
-server:
-  port: 8081
 logging:
   level:
     org.hibernate.engine.jdbc.spi.SqlExceptionHelper: ERROR
