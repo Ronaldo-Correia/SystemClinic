@@ -28,9 +28,7 @@ spring:
       #path: /h2-console
 
   datasource:
-    url: jdbc:postgresql://${PG_HOST}:${PG_PORT}/${PG_DATABASE}
-    username: ${PG_USER}
-    password: ${PG_PASSWORD}
+    url: jdbc:postgresql://postgres.railway.internal:5432/railway?user=postgres&password=PWvNtcmrvefuwLXKCfsxbLbHjANdCZHx
     driver-class-name: org.postgresql.Driver
 
   jpa:
