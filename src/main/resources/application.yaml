@@ -46,8 +46,9 @@ spring:
 
 logging:
   level:
-    org.hibernate.engine.jdbc.spi.SqlExceptionHelper: ERROR
-    org.springframework.orm.jpa: DEBUG
+    org.springframework.mail.javamail: DEBUG
+    org.springframework.boot.autoconfigure.mail.MailSenderPropertiesConfiguration: DEBUG
+
 
 spring.jpa.show-sql: true
 spring.jpa.properties.hibernate.format_sql: true
